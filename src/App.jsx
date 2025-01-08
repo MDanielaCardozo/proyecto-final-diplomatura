@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import Navigation from './components/layout/Navigation'
 import Home from './components/views/Home/Home'
 import ProductDetails from './components/views/Product/ProductDetails'
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/products" element={<ProductDetails />} />
+        <Route path="/productDetails" element={<ProductDetails />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
