@@ -1,21 +1,30 @@
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import { Col,  } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./CardProduct.css";
 
-function CardProduct() {
+function CardProduct({ product }) {
   return (
-    <div>
+    <Col md={3} className="mb-4">
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card>
+          <div className="w-100 object-fit-cover">
+            <img src={product.image} alt={product.productName} className="w-100 cardImg" />
+          </div>
+          </Card>
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>
+            <h5>{product.productName}</h5>
+          </Card.Title>
+          <Card.Subtitle className="m-4 text-muted">
+            $ {product.price}
+          </Card.Subtitle>
+          <Card.Footer className="text-end">
+            <Link>Ver más</Link>
+          </Card.Footer>
         </Card.Body>
       </Card>
-    </div>
+    </Col>
   );
 }
 

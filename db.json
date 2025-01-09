@@ -1,0 +1,144 @@
+{
+    "products": [
+        {
+            "productName": "SOFA BOLD",
+            "price": 2300,
+            "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 10,
+            "id": "1"
+        },
+        {
+            "productName": "SOFA SOFIA",
+            "price": 3320,
+            "image": "https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg",
+            "stock": 20,
+            "id": "2"
+        },
+        {
+            "productName": "SOFA JEFF",
+            "price": 2980,
+            "image": "https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 30,
+            "id": "3"
+        },
+        {
+            "productName": "SOFA SHARON",
+            "price": 1540,
+            "image": "https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 40,
+            "id": "4"
+        },
+        {
+            "productName": "SOFA BONNIE",
+            "price": 3620,
+            "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 50,
+            "id": "5"
+        },
+        {
+            "productName": "SOFA CAMA JUANA",
+            "price": 4500,
+            "image": "https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 60,
+            "id": "6"
+        },
+        {
+            "productName": "SOFA BOCK",
+            "price": 2850,
+            "image": "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg",
+            "stock": 70,
+            "id": "7"
+        },
+        {
+            "productName": "SILLÓN LISA",
+            "price": 1640,
+            "image": "https://images.pexels.com/photos/1743227/pexels-photo-1743227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 80,
+            "id": "8"
+        },
+        {
+            "productName": "SOFA CAMA TONY",
+            "price": 2100,
+            "image": "https://images.pexels.com/photos/3209045/pexels-photo-3209045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 90,
+            "id": "9"
+        },
+        {
+            "productName": "SILLON MILLER",
+            "price": 5000,
+            "image": "https://images.pexels.com/photos/1571470/pexels-photo-1571470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 100,
+            "id": "10"
+        },
+        {
+            "productName": "SOFA JACKSON",
+            "price": 1100,
+            "image": "https://images.pexels.com/photos/1543447/pexels-photo-1543447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 110,
+            "id": "11"
+        },
+        {
+            "productName": "SOFA MELLOW",
+            "price": 1400,
+            "image": "https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 120,
+            "id": "12"
+        },
+        {
+            "productName": "SOFA WARREN",
+            "price": 1300,
+            "image": "https://images.pexels.com/photos/3965513/pexels-photo-3965513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 130,
+            "id": "13"
+        },
+        {
+            "productName": "SILLON MAGGIE",
+            "price": 1400,
+            "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 140,
+            "id": "14"
+        },
+        {
+            "productName": "SILLON FRIDA",
+            "price": 1500,
+            "image": "https://images.pexels.com/photos/6758512/pexels-photo-6758512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 150,
+            "id": "15"
+        },
+        {
+            "productName": "SOFA MASH",
+            "price": 1600,
+            "image": "https://images.pexels.com/photos/6934175/pexels-photo-6934175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 160,
+            "id": "16"
+        },
+        {
+            "productName": "ESQUINERO JACK",
+            "price": 3700,
+            "image": "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 170,
+            "id": "17"
+        },
+        {
+            "productName": "SOFA BOWIE",
+            "price": 4800,
+            "image": "https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 180,
+            "id": "18"
+        },
+        {
+            "productName": "SOFA CHESTER",
+            "price": 1900,
+            "image": "https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 190,
+            "id": "19"
+        },
+        {
+            "productName": "SOFA NEIL",
+            "price": 5000,
+            "image": "https://images.pexels.com/photos/1005058/pexels-photo-1005058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "stock": 200,
+            "id": "20"
+        }
+    ]
+}
