@@ -5,7 +5,15 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/img/art-deco-logo.png';
 import './Navigation.css';
 
-function Navigation() {
+function Navigation({ logged, setLogged }) {
+  const navigation = useNavigate();
+
+  const logout = () => {
+    sessionStorage.removeItem('userKey');
+    setLogged('');
+    navigation('/');
+  };
+
   return (
     <Navbar expand="lg" bg="dark" variant="dark" sticky="top">
       <Container>
@@ -19,11 +27,11 @@ function Navigation() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link to={"/"} className='fontNav'>Home</Nav.Link>
-            <Nav.Link to={"/about"} className='fontNav'>Nosotros</Nav.Link>
-            <Nav.Link to={"/contact"} className='fontNav'>Contacto</Nav.Link>
-            <Nav.Link to={"/registro"} className='fontNav'>Registrarse</Nav.Link>
-            <Nav.Link to={"/login"} className='fontIcon'><i className="bi bi-person"></i></Nav.Link>
+            <Link to={"/"} className='fontNav'>Home</Link>
+            <Link to={"/about"} className='fontNav'>Nosotros</Link>
+            <Link to={"/contact"} className='fontNav'>Contacto</Link>
+            <Link to={"/registro"} className='fontNav'>Registrarse</Link>
+            <Link to={"/login"} className='fontIcon'><i className="bi bi-person"></i></Link>
           </Nav>
           
             
