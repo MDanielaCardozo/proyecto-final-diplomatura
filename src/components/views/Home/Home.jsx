@@ -1,5 +1,5 @@
 import CarouselHome from "./Carousel/CarouselHome";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import CardProduct from "./CardProduct/CardProduct";
 import { useState, useEffect } from "react";
 import { fetchProducts } from "../Product/Api";
@@ -16,6 +16,7 @@ function Home() {
         try {
           const data = await fetchProducts(BASE_URL);
           setListProducts(data);
+          setLoading(false);
         } catch (error) {
           console.error(error);
           setLoading(false);
@@ -24,6 +25,10 @@ function Home() {
 
     fetchApi();
   }, []);
+
+  if (loading) {
+    return <h1>Loading...</h1>;
+  } else {
 
   return (
     <div className="bg-dark">
@@ -37,6 +42,7 @@ function Home() {
       </Container>
     </div>
   );
+}
 }
 
 export default Home;

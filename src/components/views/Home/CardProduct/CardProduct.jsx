@@ -20,7 +20,7 @@ function CardProduct({ product }) {
             $ {product.price}
           </Card.Subtitle>
           <Card.Footer className="text-end">
-            <Link>Ver más</Link>
+            <Link to={`/productDetail/${product.id}`}>Ver más</Link>
           </Card.Footer>
         </Card.Body>
       </Card>
