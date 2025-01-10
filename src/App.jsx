@@ -11,6 +11,7 @@ import Contact from './components/views/Contact/Contact'
 import Register from './components/views/Register/Register'
 import Login from './components/views/Login/Login'
 import Error404 from './components/views/Error/Error404'
+import Footer from './components/layout/Footer'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="*" element={<Error404 />} />
       </Routes>
     </main>
+    <Footer />
    </Router>
   )
 }

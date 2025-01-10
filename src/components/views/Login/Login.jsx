@@ -43,7 +43,7 @@ const Login = ({ setLogged }) => {
                 <Col xs={12} md={6}>
                     <Card>
                         <Card.Body>
-                            <Card.Title className='text-center'>Login</Card.Title>
+                            <Card.Title className='text-center fs-3'>Login</Card.Title>
                             <Form onSubmit={handleSubmit(onSubmit)} className="text-start">
                                 <Form.Group className="mb-3">
                                     <Form.Label>Email</Form.Label>

@@ -5,7 +5,7 @@ import "./CardProduct.css";
 
 function CardProduct({ product }) {
   return (
-    <Col md={3} className="mb-4">
+    <Col lg={3} md={4} sm={12} className="mb-4 d-flex justify-content-center">
       <Card style={{ width: "18rem" }}>
         <Card>
           <div className="w-100 object-fit-cover">

@@ -33,7 +33,7 @@ function Home() {
   return (
     <div className="bg-dark">
       <CarouselHome></CarouselHome>
-      <Container className="py-5 text-white">
+      <Container className="pb-5 text-white">
         <h1 className="py-5">Products</h1>
         <hr className="p-5" />
         <Row className="w-100">
