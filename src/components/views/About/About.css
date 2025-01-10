@@ -1,0 +1,72 @@
+
+
+.moov {
+    animation: myMoov;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1900ms;
+}
+
+@keyframes myMoov{
+    from{margin-top: 100%;}
+    to{margin-bottom: 0%;}
+}
+
+.equipo {
+    margin: 50px;
+    padding: 20px;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 230px;
+    position: relative;
+  }
+  
+  .imgEquipo {
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 6%;
+    box-shadow: 9px 9px 10px 0px rgba(219, 214, 214, 0.5);
+  }
+  
+  .content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  
+  .content:hover {
+    opacity: 1;
+  }
+  
+  .content h3 {
+    font-size: 55px;
+    color: #fff;
+  }
+  
+  .content > * {
+    transform: translateY(35px);
+    transition: transform 0.6s;
+  }
+  
+  .content:hover > * {
+    transform: translateY(0px);
+  }

@@ -34,7 +34,7 @@ function Home() {
     <div className="bg-dark">
       <CarouselHome></CarouselHome>
       <Container className="pb-5 text-white">
-        <h1 className="py-5">Products</h1>
+        <h1 className="py-5">Productos</h1>
         <hr className="p-5" />
         <Row className="w-100">
             {listProducts.map((product) => (<CardProduct key={product.id} product={product}></CardProduct>))}
